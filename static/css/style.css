@@ -23,14 +23,21 @@ body {
 
 .site-header-title {
   font-size: 48px;
+
 }
 .site-header-menu {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .site-header a {
 		color: #333;
-		font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
 .navbar {
