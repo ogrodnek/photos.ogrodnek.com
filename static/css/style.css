@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 body {
 	font-size: 18px;
 	line-height: 1.5;
@@ -17,27 +15,41 @@ body {
 }
 
 .site-header {
-	color: black;
-	padding-bottom: 32px;
+	color: #282828  ;
+	padding-bottom: 48px;
 }
 
-.site-header-title {
+.site-header-title a {
   font-size: 48px;
-
+  color: #202020 ;
 }
+
+.titles {
+  padding-bottom: 24px;
+}
+
+.site-header-subtitle a {
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 6px;
+  color: #484848;
+}
+
+
 .site-header-menu {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .site-header a {
-		color: #333;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  padding-bottom: 24px;
 }
 
 .navbar {
@@ -80,4 +92,10 @@ ul#main-nav {
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
+}
+
+.footer-block {
+  padding-top: 24px;
+  font-size: 14px;
+  color: #A0A0A0
 }
