@@ -100,3 +100,12 @@ ul#main-nav {
   font-size: 14px;
   color: #A0A0A0
 }
+p {
+  text-align: justify;
+
+}
+
+.dropcap {
+  margin-right: 5px;
+  color: #484848 ;
+}
